@@ -43,6 +43,7 @@ if len(fr_files) > 0 and len(bh_files):
         "Farmer Mobile Number": "last",
         "AadharId": 'last',
         "MobileNo": 'last',
+        "PPBNO": 'last',
         "Survey Number": lambda x: ", ".join(map(str, pd.unique(x))),
         "Sub Survey Number": lambda x: ", ".join(map(str, pd.unique(x)))
     }).reset_index()
