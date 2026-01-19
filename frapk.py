@@ -70,8 +70,9 @@ try:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             use_container_width=True
         )
+        
+    else:
+        st.info("Waiting for files to be uploaded...")
 except:
     print("Please Upload the Unclaimed FR Buckets excel and  detailed report excel of the Rythu Bheema, Please check once again")
-    
-else:
-    st.info("Waiting for files to be uploaded...")
+
