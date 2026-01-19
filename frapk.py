@@ -5,6 +5,9 @@ import zipfile
 
 st.set_page_config(page_title="Farmer Data Pro", page_icon="❤️", layout="wide")
 
+st.title("🌾 FR Excel formatter - Meger")
+st.markdown("Upload multiple Excel files to deduplicate and merge to fetch Aadhar Card.")
+
 fr_files = st.file_uploader("Upload Unclaimed files", type="xlsx", accept_multiple_files=True)
 bh_files = st.file_uploader("Upload Bheema files", type="xlsx", accept_multiple_files=True)
 if len(fr_files) > 0 and len(bh_files):
