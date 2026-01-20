@@ -3,7 +3,7 @@ import pandas as pd
 import io
 import zipfile
 
-st.set_page_config(page_title="Farmer Data Pro", page_icon="❤️", layout="wide")
+st.set_page_config(page_title="FR Agri Excel Merger", page_icon="❤️", layout="wide")
 
 st.title("🌾 FR Excel formatter - Meger")
 st.markdown("Upload multiple Excel files to deduplicate and merge to fetch Aadhar Card.")
